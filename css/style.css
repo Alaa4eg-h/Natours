@@ -9,123 +9,117 @@
 
 ===============================================*/
 
-
 /*==============================================
                     General 
 ===============================================*/
 
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    font-family: "Roboto condensed", sans-serif;
+  font-family: "Roboto condensed", sans-serif;
 }
 
 p {
-    color: #64707b;
-    font-size: 16px;
-    font-weight: 300;
+  color: #64707b;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 h3 {
-    color: #41464B;
-    text-transform: uppercase;
+  color: #41464b;
+  text-transform: uppercase;
 }
 
 ul,
 li {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
-
 
 /*==============================================
                     Home
 ===============================================*/
 
 #home {
-    height: 100%;
+  height: 100%;
 }
 
 #home-cover {
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(../img/home-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(../img/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #home-content-box {
-    width: 100%;
-    ;
-    height: 100%;
-    display: table;
+  width: 100%;
+  height: 100%;
+  display: table;
 }
 
 #home-content-box-inner {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #home-heading h3 {
-    font-size: 55px;
-    color: #FFF;
-    font-weight: 700;
+  font-size: 55px;
+  color: #fff;
+  font-weight: 700;
 }
-
 
 /*==============================================
                     Parallex [Generic]
 ===============================================*/
 
 .bg-parallex {
-    background-attachment: fixed;
+  background-attachment: fixed;
 }
-
 
 /*==============================================
                     Button [Generic]
 ===============================================*/
 
 .btn-general {
-    border-width: 2px;
-    padding: 12px 26px;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
+  border-width: 2px;
+  padding: 12px 26px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
 
 .btn-white {
-    border-color: #fff;
-    color: #FFF;
+  border-color: #fff;
+  color: #fff;
 }
 
 .btn-white:hover,
 .btn-white:focus {
-    background-color: #fff;
-    color: #41464B;
+  background-color: #fff;
+  color: #41464b;
 }
 
 .btn-blue {
-    border-color: #34c6d3;
-    color: #41464B;
+  border-color: #34c6d3;
+  color: #41464b;
 }
 
 .btn-blue:hover,
 .btn-blue:focus {
-    background-color: #34c6d3;
-    color: #FFF;
+  background-color: #34c6d3;
+  color: #fff;
 }
-
 
 /*==============================================
                     Animation
@@ -134,285 +128,277 @@ li {
 #home-cover,
 #home-heading,
 #home-btn {
-    animation-duration: .5s;
+  animation-duration: 0.5s;
 }
 
 #home-cover {
-    animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 
 #home-heading {
-    animation-delay: .5s;
+  animation-delay: 0.5s;
 }
 
 #home-btn {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
-
 
 /*==============================================
                     Content (Generic)
 ===============================================*/
 
 .content-box {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .content-title h3 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .content-title-white h3 {
-    color: #FFF;
+  color: #fff;
 }
 
 .content-title-underline {
-    width: 50px;
-    height: 5px;
-    background-color: #34c6d3;
-    margin: 0 auto 30px auto;
+  width: 50px;
+  height: 5px;
+  background-color: #34c6d3;
+  margin: 0 auto 30px auto;
 }
-
 
 /*==============================================
                     Services
 ===============================================*/
 
 .service-item {
-    padding: 20px 0;
-    margin-bottom: 20px;
-    cursor: pointer;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .service-item-icon i {
-    color: #34c6d3;
-    float: left;
-    padding: 15px;
-    width: 75px;
-    height: 75px;
-    text-align: center;
-    margin-right: 15px;
-    transition: all .2s ease;
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    -ms-transition: all .2s ease;
-    -o-transition: all .2s ease;
+  color: #34c6d3;
+  float: left;
+  padding: 15px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  margin-right: 15px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
 
 .service-item:hover .service-item-icon i {
-    color: #FFF;
-    background-color: #34c6d3;
+  color: #fff;
+  background-color: #34c6d3;
 }
 
 .service-item-title h3 {
-    margin: 0 0 15px 0;
-    font-size: 20px;
-    font-weight: 400;
+  margin: 0 0 15px 0;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .service-item-desc p {
-    margin: 0;
+  margin: 0;
 }
-
 
 /*==============================================
                     About
 ===============================================*/
 
 #about-bg-diagonal {
-    width: 60%;
-    height: 700px;
-    float: right;
-    background: url(../img/about-bg.jpeg) no-repeat center fixed;
-    background-size: cover;
-    border-left: 50px solid #fff;
-    border-top: 700px solid transparent;
+  width: 60%;
+  height: 700px;
+  float: right;
+  background: url(../img/about-bg.jpeg) no-repeat center fixed;
+  background-size: cover;
+  border-left: 50px solid #fff;
+  border-top: 700px solid transparent;
 }
 
 #about-content-box {
-    height: 700px;
-    float: left;
+  height: 700px;
+  float: left;
 }
 
 #about-content-box-outer {
-    width: 100%;
-    height: 100%;
-    display: table;
+  width: 100%;
+  height: 100%;
+  display: table;
 }
 
 #about-content-box-inner {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #about .content-title h3 {
-    text-align: left;
+  text-align: left;
 }
 
 #about .content-title-underline {
-    margin: 0 0 30px 0;
+  margin: 0 0 30px 0;
 }
 
 #about-desc p {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-
 
 /*==============================================
                     Work
 ===============================================*/
 
-.row.no-gutter [class*=col-] {
-    padding-right: 0;
-    padding-left: 0;
+.row.no-gutter [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .img-wrapper {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .img-wrapper img {
-    transition: transform .3s ease;
-    -webkit-transition: transform .3s ease;
-    -moz-transition: transform .3s ease;
-    -ms-transition: transform .3s ease;
-    -o-transition: transform .3s ease;
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
 }
 
 .img-wrapper img:hover {
-    transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    cursor: zoom-in;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  cursor: zoom-in;
 }
-
 
 /*==============================================
                     Team
 ===============================================*/
 
 .team-member {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 .team-member-info {
-    padding: 10px 0 30px 0;
+  padding: 10px 0 30px 0;
 }
 
 h4.team-member-name {
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding-top: 2px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 2px;
 }
 
 h4.team-member-destignation {
-    color: #34c6d3;
-    font-size: 15px;
-    font-weight: 700;
-    font-style: italic;
-    letter-spacing: 1px;
-    margin-top: 5px;
+  color: #34c6d3;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 5px;
 }
-
 
 /*==============================================
                     Social
 ===============================================*/
 
 .social-list li {
-    display: inline-block;
-    margin-top: 10px;
-    width: 30px;
-    height: 30px;
+  display: inline-block;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
 }
 
 .social-list li:not(:last-child) {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .icon-gray i {
-    color: #64707b;
-    line-height: 30px;
-    padding: 5px;
-    -webkit-transition: color .2s ease-in;
-    -o-transition: color .2s ease-in;
-    transition: color .2s ease-in;
+  color: #64707b;
+  line-height: 30px;
+  padding: 5px;
+  -webkit-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
 }
 
 .social-icon i:hover {
-    color: #34c6d3;
+  color: #17484d;
 }
 
 /*==============================================
                     Testimonials
 ===============================================*/
 #testimonial-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/clients/bg-testimonials.jpeg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    -webkit-background-size: cover;
-    background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/clients/bg-testimonials.jpeg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 #custormer-testmoinals {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .testimonial img {
-    max-width: 120px;
-    margin: 0 auto;
+  max-width: 120px;
+  margin: 0 auto;
 }
 
 .testimonial blockquote {
-    border: 0;
-    font-family: Georgia, sans-serif;
-    font-style: italic;
-    color: #FFF;
-    padding: 6px 150px;
-    position: relative;
+  border: 0;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+  color: #fff;
+  padding: 6px 150px;
+  position: relative;
 }
 
 .testimonial blockquote p {
-    color: #FFF;
+  color: #fff;
 }
-
 
 .testimonial blockquote:before,
 .testimonial blockquote:after {
-    font-size: 80px;
-    font-style: normal;
-    line-height: 1;
-    width: 30px;
-    height: 30px;
-    position: absolute;
+  font-size: 80px;
+  font-style: normal;
+  line-height: 1;
+  width: 30px;
+  height: 30px;
+  position: absolute;
 }
 
 .testimonial blockquote:before {
-    content: "\201c";
-    top: -20px;
-    left: 100px;
-
+  content: "\201c";
+  top: -20px;
+  left: 100px;
 }
 
 .testimonial blockquote:after {
-    content: "\201d";
-    top: 20px;
-    right: 100px;
+  content: "\201d";
+  top: 20px;
+  right: 100px;
 }
 
 .testimonial-author p {
-    color: #FFF;
-    font-size: 17px;
+  color: #fff;
+  font-size: 17px;
 }
 
 .testimonial-author p strong {
-    display: block;
+  display: block;
 }
 
 /*==============================================
@@ -420,53 +406,53 @@ h4.team-member-destignation {
 ===============================================*/
 
 .pricing-box {
-    border: 3px solid #34c6d3;
-    padding: 50px 0px;
-    margin: 40px 0;
+  border: 3px solid #34c6d3;
+  padding: 50px 0px;
+  margin: 40px 0;
 }
 
 h4.pricing-title {
-    background-color: #34c6d3;
-    color: #FFF;
-    display: inline-block;
-    padding: 7px 15px;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 0 0 30px 0;
+  background-color: #34c6d3;
+  color: #fff;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 30px 0;
 }
 
 h3.pricing-value {
-    font-size: 60px;
-    font-weight: 700;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 h3.pricing-value sup {
-    font-size: 28px;
-    font-weight: normal;
-    vertical-align: super;
+  font-size: 28px;
+  font-weight: normal;
+  vertical-align: super;
 }
 
 ul.pricing-spec {
-    margin: 20px 0 60px 0;
+  margin: 20px 0 60px 0;
 }
 
 ul.pricing-spec li p {
-    font-weight: 400;
-    text-transform: uppercase;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .pricing-box-lg {
-    padding: 90px 0;
-    background-color: #34c6d3;
-    margin: 0;
+  padding: 90px 0;
+  background-color: #34c6d3;
+  margin: 0;
 }
 
 .pricing-box-lg h4.pricing-title {
-    background-color: #FFF;
-    color: #34c6d3;
+  background-color: #fff;
+  color: #34c6d3;
 }
 
 .pricing-box-lg ul.pricing-spec li p {
-    color: #FFF;
+  color: #fff;
 }
